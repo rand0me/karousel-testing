@@ -11,7 +11,7 @@
   },
   "scripts": {
     "test": "codeceptjs run-multiple parallel",
-    "spam": "forever -c \"npm test\" \"\""
+    "spam": "node spam.js"
   },
   "keywords": [],
   "author": "rand0me <not.randome@gmail.com> (https://rand0me.github.io/)",

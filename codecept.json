@@ -1,0 +1,24 @@
+{
+  "output": "./output",
+  "helpers": {
+    "Puppeteer": {
+      "url": "https://www.karusel-tv.ru/",
+      "waitForNavigation": "networkidle0"
+    }
+  },
+  "include": {},
+  "mocha": {},
+  "bootstrap": false,
+  "teardown": null,
+  "hooks": [],
+  "tests": "./*_test.js",
+  "timeout": 10000,
+  "name": "ebal-golosoval",
+  "translation": "ru-RU",
+  "multiple": {
+    "parallel": {
+      "chunks": 5,
+      "browsers": [ "chrome", "chrome", "chrome", "firefox", "firefox", "firefox" ]
+    }
+  }
+}

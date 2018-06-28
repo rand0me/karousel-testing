@@ -1,0 +1,19 @@
+{
+  "name": "ebal-golosoval",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "codeceptjs": "^1.3.0",
+    "forever": "^0.15.3",
+    "puppeteer": "^1.5.0"
+  },
+  "scripts": {
+    "test": "codeceptjs run-multiple parallel",
+    "spam": "forever -c \"npm test\" \"\""
+  },
+  "keywords": [],
+  "author": "rand0me <not.randome@gmail.com> (https://rand0me.github.io/)",
+  "license": "ISC"
+}

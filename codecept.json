@@ -3,7 +3,8 @@
   "helpers": {
     "Puppeteer": {
       "url": "https://www.karusel-tv.ru/",
-      "waitForNavigation": "networkidle0"
+      "waitForNavigation": "networkidle0",
+      "show": false
     }
   },
   "include": {},
@@ -13,12 +14,19 @@
   "hooks": [],
   "tests": "./*_test.js",
   "timeout": 10000,
-  "name": "ebal-golosoval",
+  "name": "karousel-testing",
   "translation": "ru-RU",
   "multiple": {
     "parallel": {
-      "chunks": 5,
-      "browsers": [ "chrome", "chrome", "chrome", "firefox", "firefox", "firefox" ]
+      "chunks": 2,
+      "browsers": [
+        "chrome",
+        "chrome",
+        "chrome",
+        "firefox",
+        "firefox",
+        "firefox"
+      ]
     }
   }
 }
